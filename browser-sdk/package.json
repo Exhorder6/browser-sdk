@@ -36,7 +36,7 @@
     "@connext/client": "^7.3.16",
     "@connext/types": "^7.3.16",
     "eventemitter3": "4.0.4",
-    "magic-sdk": "^2.4.7",
+    "magic-sdk": "^2.7.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-qr-code": "^1.0.2",
