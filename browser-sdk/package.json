@@ -32,7 +32,7 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "@connext/channel-provider": "^7.3.16",
+    "@connext/channel-provider": "^7.3.17",
     "@connext/client": "^7.3.16",
     "@connext/types": "^7.3.16",
     "eventemitter3": "4.0.4",
