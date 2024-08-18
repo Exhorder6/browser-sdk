@@ -6,7 +6,9 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "node --max-old-space-size=8192 node_modules/.bin/rollup -c",
-    "build-and-watch": "rollup -c -w"
+    "build-and-watch": "rollup -c -w",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -40,6 +42,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-qr-code": "^1.0.2",
-    "rollup": "^2.26.4"
-  }
+    "rollup": "^2.26.4",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
